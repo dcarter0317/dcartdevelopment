@@ -13,7 +13,7 @@ export default function Hero() {
               <div className="flex text-base sm:text-lg md:text-xl gap-3 sm:gap-4 ml-0 md:ml-2 hero-nav justify-center md:justify-start flex-wrap">
                 <Link href="#projects">Projects</Link>
                 <Link href="#contact">Contact</Link>
-                <Link href="/assets/David_Carter_Resume_2025.docx">Resume</Link>
+                <Link href="/assets/David_Carter_Resume_2025.zip">Resume</Link>
               </div>
               </div>
               <div className="hero_image shrink-0">
