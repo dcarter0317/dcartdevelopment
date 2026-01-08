@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+:root {
+  --text-color: #F7F7F7;
+  --color-background: #10120F;
+  --color-foreground: #10D37B;
+  --font-sans: var(--font-encode-sans-condensed);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+.heading-text {
+  font-family: var(--font-mono);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  background: var(--color-background);
+  color: var(--text-color);
+  font-family: var(--font-encode-sans-condensed, sans-serif);
+}
+
+.hero-nav {
+  display: flex;
+  gap: 8px;
+
+ a {
+   &::before {
+      content: '\2022';
+      display: inline-block;
+      gap: 8px;
+      width: 16px;
+      height: 16px;
+      color: var(--color-foreground);
+   } 
+
+   &:hover {
+      color: var(--color-foreground);
+   }
+ }
+}
+
+.badge {
+  border: 1px solid var(--color-foreground);
+  color: var(--text-color);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Hide scrollbar for tech slider */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+
+/* Hide Next.js floating icon */
+#__next-build-watcher {
+  display: none !important;
+}
+
+iframe[src*="vercel"] {
+  display: none !important;
+} 
+
+nextjs-portal {
+  display: none;
+}
