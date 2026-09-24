@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Encode_Sans_Condensed, JetBrains_Mono } from "next/font/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
 
 const encodeSansCondensed = Encode_Sans_Condensed({
@@ -25,9 +26,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${encodeSansCondensed.variable} ${jetBrainsMono.variable}`}>
+      {process.env.NEXT_PUBLIC_GTM_ID && (
+        <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
+      )}
       <body className="antialiased">
         {children}
       </body>
     </html>
+
   );
 }
