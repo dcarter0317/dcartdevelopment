@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Encode_Sans_Condensed, JetBrains_Mono } from "next/font/google";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
 
 const encodeSansCondensed = Encode_Sans_Condensed({
@@ -32,6 +32,9 @@ export default function RootLayout({
       <body className="antialiased">
         {children}
       </body>
+      {process.env.NEXT_PUBLIC_GA_ID && (
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+      )}
     </html>
 
   );
