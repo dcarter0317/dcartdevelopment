@@ -17,10 +17,10 @@ export default function Projects() {
                         />
                         <div className="flex flex-col justify-between">
                             <div className="flex flex-col sm:flex-row sm:gap-4 mt-4 mb-4">
-                                <h2 className="text-xl sm:text-2xl font-bold">Ben&apos;s World Of Transformers</h2>
+                                <h2 className="text-xl sm:text-2xl font-bold">Ben's World Of Transformers</h2>
                                 <Link className="pt-1 text-[#0066CC] underline whitespace-nowrap" href="https://bwtf.com" target="_blank">Visit Site</Link>
                             </div>
-                            <p className="mb-4 text-sm sm:text-base"><strong>Ben&apos;s World of Transformers</strong> is a toy review blog built on Drupal, where I served as the <strong>sole developer</strong> from initial build through ongoing maintenance. I designed and implemented <strong>custom Drupal themes</strong>, handled site building and content architecture, and continue to manage <strong>deployments, platform upgrades, and long-term maintenance</strong>, ensuring performance, scalability, and reliability.</p>
+                            <p className="mb-4 text-sm sm:text-base"><strong>Ben's World of Transformers</strong> is a toy review blog built on Drupal, where I served as the <strong>sole developer</strong> from initial build through ongoing maintenance. I designed and implemented <strong>custom Drupal themes</strong>, handled site building and content architecture, and continue to manage <strong>deployments, platform upgrades, and long-term maintenance</strong>, ensuring performance, scalability, and reliability.</p>
                         </div>
                         <div className="flex flex-wrap gap-2 sm:gap-4">
                             <span className="badge"><Image src="/assets/icons/icon_drupal.png" alt="Drupal Icon" width={16} height={16} />Drupal</span>
