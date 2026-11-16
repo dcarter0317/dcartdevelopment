@@ -27,14 +27,14 @@ export default function selectedProjects() {
                             <p className="mb-4 text-sm sm:text-base">The project combines UI/UX design and prototyping in Figma, front-end engineering, responsive email development, marketing analytics, and DevOps automation into a connected marketing technology solution. I designed and implemented the website and email experiences, translating Figma designs into responsive, production-ready interfaces using modern development technologies. Particular emphasis was placed on reusable components, consistent branding across web and email, intuitive user experiences, structured event tracking, secure integrations, and maintainable deployment processes.</p>
                         </div>
                         <div className="flex flex-wrap gap-2 sm:gap-4">
-                            <span className="badge"><Image src="/assets/icons/icon_drupal.png" alt="Drupal Icon" width={16} height={16} />React/NextJS</span>
-                            <span className="badge"><Image src="/assets/icons/icon_drupal.png" alt="Drupal Icon" width={16} height={16} />Resend</span>
-                            <span className="badge"><Image src="/assets/icons/icon_drupal.png" alt="Drupal Icon" width={16} height={16} />Typescript</span>
-                            <span className="badge"><Image src="/assets/icons/icon_drupal.png" alt="Drupal Icon" width={16} height={16} />Tailwind CSS</span>
-                            <span className="badge"><Image src="/assets/icons/icon_drupal.png" alt="Drupal Icon" width={16} height={16} />MJML</span>
-                            <span className="badge"><Image src="/assets/icons/icon_drupal.png" alt="Drupal Icon" width={16} height={16} />GTM/GA4</span>
-                            <span className="badge"><Image src="/assets/icons/icon_drupal.png" alt="Drupal Icon" width={16} height={16} />N8N</span>
-                            <span className="badge"><Image src="/assets/icons/icon_drupal.png" alt="Drupal Icon" width={16} height={16} />Figma</span>
+                            <span className="badge"><Image src="/assets/icons/icon_react.png" alt="React/NextJS Icon" width={16} height={16} />React/NextJS</span>
+                            <span className="badge"><Image src="/assets/icons/icon_resend.png" alt="Resend Icon" width={16} height={16} />Resend</span>
+                            <span className="badge"><Image src="/assets/icons/icon_typescript.png" alt="Typescript Icon" width={16} height={16} />Typescript</span>
+                            <span className="badge"><Image src="/assets/icons/icon_tailwindcss.png" alt="Tailwind CSS Icon" width={16} height={16} />Tailwind CSS</span>
+                            <span className="badge"><Image src="/assets/icons/icon_mjml.png" alt="MJML Icon" width={16} height={16} />MJML</span>
+                            <span className="badge"><Image src="/assets/icons/icon_ga.png" alt="GTM/GA4 Icon" width={16} height={16} />GTM/GA4</span>
+                            <span className="badge"><Image src="/assets/icons/icon_n8n.png" alt="N8N Icon" width={16} height={16} />N8N</span>
+                            <span className="badge"><Image src="/assets/icons/icon_figma.png" alt="Figma Icon" width={16} height={16} />Figma</span>
                         </div>
                     </Card>
           </div>
